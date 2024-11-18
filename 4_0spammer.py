@@ -564,7 +564,7 @@ print("INFO: every number printed is an account made")
 #FUCK ALL SKIDDERS
 print("use at your own risk")
 
-TITLE = input('PlayFab TitleID: ')
+TITLE = input('PlayFab TitleID:543D4 ')
 #FUCK ALL SKIDDERS
 #FUCK ALL SKIDDERS
 #FUCK ALL SKIDDERS
@@ -693,7 +693,7 @@ CHARS = string.ascii_letters + string.digits
 #FUCK ALL SKIDDERS
 #FUCK ALL SKIDDERS
 #FUCK ALL SKIDDERS
-URL = f"https://{TITLE}.playfabapi.com/Client/RegisterPlayFabUser"
+URL = f"https://543D4.playfabapi.com/Client/RegisterPlayFabUser"
 #FUCK ALL SKIDDERS
 #FUCK ALL SKIDDERS
 #FUCK ALL SKIDDERS
@@ -736,7 +736,7 @@ URL = f"https://{TITLE}.playfabapi.com/Client/RegisterPlayFabUser"
 #FUCK ALL SKIDDERS
 #FUCK ALL SKIDDERS
 #FUCK ALL SKIDDERS
-URL2 = f"https://{TITLE}.playfabapi.com/Client/LoginWithCustomID"
+URL2 = f"https://543D4.playfabapi.com/Client/LoginWithCustomID"
 #FUCK ALL SKIDDERS
 #FUCK ALL SKIDDERS
 #FUCK ALL SKIDDERS
@@ -916,10 +916,10 @@ def callback(success, failure):
 #FUCK ALL SKIDDERS
 def spam():
     LOCAL = 0
-    for i in range(COUNT):
+    for i in range(1000):
         RAND = ''.join(random.choice(CHARS) for _ in range(8))
         DATA = {
-            "TitleId": TITLE,
+            "TitleId": 543D4,
             #FUCK ALL SKIDDERS
 #FUCK ALL SKIDDERS
 #FUCK ALL SKIDDERS
